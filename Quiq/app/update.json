@@ -1,6 +1,6 @@
 {
-  "main.js": "https://cdn.jsdelivr.net/gh/Five-2357/Codes@main/Quiq/app/main.js",
-  "preload.js": "https://cdn.jsdelivr.net/gh/Five-2357/Codes@main/Quiq/app/preload.js",
-  "loading.html": "https://cdn.jsdelivr.net/gh/Five-2357/Codes@main/Quiq/app/loading.html"
-  "extra.js": "example.com"
+  "main.js": "https://cdn.jsdelivr.net/gh/Five-2357/Codes@main/Quiq/app/update/main.js",
+  "preload.js": "https://cdn.jsdelivr.net/gh/Five-2357/Codes@main/Quiq/app/update/preload.js",
+  "loading.html": "https://cdn.jsdelivr.net/gh/Five-2357/Codes@main/Quiq/app/update/loading.html",
+  "package.json": "https://cdn.jsdelivr.net/gh/Five-2357/Codes@main/Quiq/app/update/package.json"
 }
