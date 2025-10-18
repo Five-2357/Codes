@@ -6,4 +6,4 @@
 
 **Discord**: [link](https://discord.com/users/1277273695529992284)
 
-_Other_: [Carrd](https://five-2357.carrd.co/)
+_Other_: [Profile](https://bluecube.pages.dev/user/Five2357)
