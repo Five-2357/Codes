@@ -33,3 +33,5 @@ This Python setup lets you **run commands on another PC**.
 > Use Same Client — for Auto run:
 
 `pip install pillow pystray`
+OR
+`py -m pip install pillow pystray`
