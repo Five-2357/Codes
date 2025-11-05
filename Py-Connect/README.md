@@ -1,43 +1,51 @@
 # Python Remote Control Connector
 
-This Python setup lets you **run commands on another PC**.
+Control another PC with Python. Simple setup, powerful results.  
 
-- **Server**: Runs on the PC you want to control.
-- **Client**: Runs on the PC you use to control the server.
-
----
-
-## 1️⃣ Using LAN (Local Network)
-
-- Both PCs must be on the **same network** (Wi-Fi or Ethernet).
-- Find the server PC’s **local IP**:
-  - Open Command Prompt and type: `ipconfig` → look for **IPv4 Address**.
-- Use this IP in the client to connect.
-- **No router changes needed.**
-- Fast and simple.
+- **Server** → The PC you want to control.  
+- **Client** → The PC you control from.  
 
 ---
 
-## 2️⃣ Using Internet (Remote Access)
+## 1️⃣ LAN Mode (Local Network)
 
-- Allows control across **different networks**.
-- Steps:
-  1. Find the server PC’s **public IP**.
-  2. Set up **port forwarding** on port `9999`.
-  3. Allow Python through **Windows Firewall**.
-  4. Optional: Use a **VPN** for safer access.
+- Both PCs need to be on the **same network** (Wi-Fi or Ethernet).  
+- Find the server PC’s **local IP**:  
+  - Open Command Prompt → type `ipconfig` → look for **IPv4 Address**.  
+- Enter that IP in the client to connect.  
+- **No router setup needed.**  
+- Super fast and easy.  
 
 ---
 
-### Auto
-> Use Same Client — for Auto run:
+## 2️⃣ Internet Mode (Remote Access)
 
-1. after installing the Auto-Server Change Config on line 24-29 to your Vaules:
+Control your PC from anywhere. Steps:  
 
-`# ---------------- Configuration (auto-start values) ----------------
-BIND_IP = "192.168.1.124"
-BIND_PORT = 2357
-ACCESS_CODE = "2357"`
+1. Find the server PC’s **public IP**.  
+2. Set up **port forwarding** for port `9999` on your router.  
+3. Allow Python through **Windows Firewall**.  
+4. Optional: Use a **VPN** for extra security.  
 
-2. install `pystray` and `pillow` if you dont have them
-3. If you want make a shortcut and put the shortcut in `shell:startup` folder
+---
+
+## ⚡ Auto-Start Setup
+
+Make your server launch automatically:  
+
+1. Open the Auto-Server config (lines 24–29) and set your values:
+
+    ```
+    # ---------------- Auto-Start Configuration ----------------
+    BIND_IP = "192.168.1.124"
+    BIND_PORT = 2357
+    ACCESS_CODE = "2357"
+    ```
+
+2. Install dependencies if missing:
+
+    ```
+    pip install pystray pillow
+    ```
+
+3. (Optional) Create a shortcut and place it in `shell:startup` to run on boot.
