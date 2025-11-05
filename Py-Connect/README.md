@@ -26,3 +26,9 @@ This Python setup lets you **run commands on another PC**.
   2. Set up **port forwarding** on the server PC’s router for port `9999`.  
   3. Make sure **Windows Firewall** allows Python through.  
   4. Optional: Use a **VPN** for safer access.  
+
+# Auto
+> Use Same Client
+> for Auto run:
+
+`pip install pillow pystray`
