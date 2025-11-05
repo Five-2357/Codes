@@ -32,6 +32,13 @@ This Python setup lets you **run commands on another PC**.
 ### Auto
 > Use Same Client — for Auto run:
 
-`pip install pillow pystray`
-OR
-`py -m pip install pillow pystray`
+1. after installing the Auto-Server Change Config on line 24-29 to your Vaules:
+
+`# ---------------- Configuration (auto-start values) ----------------
+BIND_IP = "192.168.1.124"
+BIND_PORT = 2357
+ACCESS_CODE = "2357"
+# ------------------------------------------------------------------`
+
+2. install `pystray` and `pillow` if you dont have them
+3. If you want make a shortcut and put the shortcut in `shell:startup` folder
