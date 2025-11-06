@@ -1,3 +1,5 @@
+<h1 align="left">How To Use:</h1>
+
 # Python Remote Control Connector
 
 Control another PC with Python. Simple setup, powerful results.  
