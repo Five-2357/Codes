@@ -1,4 +1,6 @@
-<h1 align="left">How To Use:</h1>
+<h1 align="Center">How To Use:</h1>
+
+----
 
 # Python Remote Control Connector
 
