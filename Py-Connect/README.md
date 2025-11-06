@@ -49,3 +49,7 @@ Make your server launch automatically:
     ```
 
 3. (Optional) Create a shortcut and place it in `shell:startup` to run on boot.
+
+### Extra:
+
+- in /Extra you can download and configure it to make it not show a window if it already doesnt.
