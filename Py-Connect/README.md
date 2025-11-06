@@ -52,4 +52,4 @@ Make your server launch automatically:
 
 ### Extra:
 
-- in /Extra you can download and configure it to make it not show a window if it already doesnt.
+- in /Extra you can download and configure `run_hidden.vbs` to make it not show a window if it already doesnt.
